@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build http://context-api-practice.surge.sh/ --token ${{secrets.REDUCER}}
+      run: surge ./build http://use-reducer-practice.surge.sh/ --token ${{secrets.REDUCER}}
